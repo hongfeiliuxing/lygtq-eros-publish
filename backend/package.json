@@ -1,0 +1,30 @@
+{
+  "name": "backendformanagersystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node app.js",
+    "start": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.4",
+    "fastify": "^0.35.0",
+    "fastify-jwt": "^0.1.1",
+    "fastify-multipart": "^0.3.0",
+    "fastify-plugin": "^0.1.1",
+    "glob": "^7.1.2",
+    "joi": "^13.0.2",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.22.8",
+    "serve-static": "^1.13.1"
+  }
+}

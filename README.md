@@ -16,7 +16,8 @@ db: {
       password: 'root' //数据库密码
     }
 ```
-## 运行
+## 测试
+### 运行
 ```javascript
 cd backend
 npm i
@@ -27,3 +28,5 @@ cd frontend
 npm i
 npm run dev
 ```
+
+### 访问 [http://localhost:8080/](http://localhost:8080/)

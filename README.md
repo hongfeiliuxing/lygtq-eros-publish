@@ -2,7 +2,7 @@
 
 |文件夹|说明|
 | ------------- |:-------------|
-|backend|后端代码，基于vuejs，使用iview-admin-template|
+|backend|后端代码，基于vuejs，使用iview-admin-template|
 |frontend|前端代码,基于fastify，sequelize|
 
 ## 准备
@@ -38,7 +38,7 @@ npm run dev
 ### 使用
 > 新建APP,填入APP名称和erosAppName(为eros.native.js中设置的appName)
 
-> 选择APP管理，新建版本，填写版本名称，上传eros build 命令在dist/js中生成的zip全量包
+> 选择APP管理，新建版本，填写版本名称，上传eros build 命令在dist/js中生成的zip全量包
 >> 上传全量包后，系统会自动生成增量发布包
 >> 上传的全量包和生成的增量包都在backend/uploads下，注意该目录的写入权限
 
